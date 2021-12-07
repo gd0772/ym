@@ -10,50 +10,50 @@
   "rewrite": [
     {
       "match": "https://ant.xunsl.com/v5/article/info.json",
-      "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jcwz.js",
+      "target": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jcwz.js",
       "enable": true
     },
     {
       "match": "https://ant.xunsl.com/v5/article/detail.json",
-      "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jcwz.js",
+      "target": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jcwz.js",
       "enable": true
     },
     {
       "match": "https://ant.xunsl.com/v5/nameless/adlickstart.json",
-      "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jckkz.js",
+      "target": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jckkz.js",
       "enable": true
     }, 
     {
       "match": "https://ant.xunsl.com/v5/CommonReward/toGetReward.json",
-      "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jcqd.js",
+      "target": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jcqd.js",
       "enable": true
     },
     {
       "match": "https://ant.xunsl.com/v17/Ad/getReward.json",
-      "target": "https://ghproxy.com/https://raw.githubusercontent.com/liuqi6968/-/main/Jc_5_60.js",
+      "target": "https://raw.githubusercontent.com/liuqi6968/-/main/Jc_5_60.js",
       "enable": true
     },
     {
       "match": "https://ant.xunsl.com/v5/CommonReward/toGetReward.json",
-      "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jcbox.js",
+      "target": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jcbox.js",
       "enable": true
     }
     ,
     {
       "match": "https://ant.xunsl.com/v5/user/stay.json",
-      "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jcwz.js",
+      "target": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jcwz.js",
       "enable": true
     }
     ,
     {
       "match": "https://ant.xunsl.com/v5/wechat/withdraw2.json",
-      "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jc_withdraw.js",
+      "target": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jc_withdraw.js",
       "enable": true
     }
     ,
     {
       "match": "https://ant.xunsl.com/v17/NewTask/getTaskList.json",
-      "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jc_today_score.js",
+      "target": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jc_today_score.js",
       "enable": true
     }
   ],
@@ -63,28 +63,28 @@
         {
             "name": "晶彩签到",
             "type": "cron",
-            "time": "15 2 * * *",
+            "time": "45 8 * * 1-5",
             "job": {
                 "type": "runjs",
-                "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jcqd.js"
+                "target": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jcqd.js"
             }
         },
         {
             "name": "晶彩文章",
             "type": "cron",
-            "time": "30 7,12,18 * * *",
+            "time": "30 8,12,18 * * 1-5",
             "job": {
                 "type": "runjs",
-                "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jcwz.js"
+                "target": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jcwz.js"
             }
         },
         {
             "name": "晶彩看看赚",
             "type": "cron",
-            "time": "45 9 * * *",
+            "time": "45 9 * * 1-5",
             "job": {
                 "type": "runjs",
-                "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jckkz.js"
+                "target": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jckkz.js"
             }
         },
         {
@@ -93,25 +93,25 @@
             "time": "15 6,12,18 * * *",
             "job": {
                 "type": "runjs",
-                "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jc_share.js"
+                "target": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jc_share.js"
             }
         },
         {
             "name": "晶彩福利视频",
             "type": "cron",
-            "time": "20 21 * * *",
+            "time": "45 11 * * 1-5",
             "job": {
                 "type": "runjs",
-                "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jc_Adv_video.js"
+                "target": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jc_Adv_video.js"
             }
         },
         {
             "name": "晶彩每日任务宝箱领取",
             "type": "cron",
-            "time": "15 22 * * *",
+            "time": "35 12 * * 1-5",
             "job": {
                 "type": "runjs",
-                "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jcbox.js"
+                "target": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jcbox.js"
             }
         },
         {
@@ -120,16 +120,16 @@
             "time": "15 7 * * *",
             "job": {
                 "type": "runjs",
-                "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jc_friendSign.js"
+                "target": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jc_friendSign.js"
             }
         },
         {
             "name": "晶彩抽奖",
             "type": "cron",
-            "time": "34 22 * * *",
+            "time": "30 21 * * 1-5",
             "job": {
                 "type": "runjs",
-                "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jc_Rotary.js"
+                "target": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jc_Rotary.js"
             }
         },
         {
@@ -138,16 +138,16 @@
             "time": "34 10 * * *",
             "job": {
                 "type": "runjs",
-                "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jc_withdraw.js"
+                "target": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jc_withdraw.js"
             }
         },
         {
             "name": "晶彩每日收益统计",
             "type": "cron",
-            "time": "15 23 * * *",
+            "time": "35 22 * * 1-5",
             "job": {
                 "type": "runjs",
-                "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jc_today_score.js"
+                "target": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jc_today_score.js"
             }
         }
     ]
