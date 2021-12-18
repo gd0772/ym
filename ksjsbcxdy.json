@@ -20,3 +20,16 @@
     }
   ]
 }
+  ],
+  "task": {
+    "type": "skip",
+    "list": [
+        {
+            "name": "中青签到",
+            "type": "cron",
+            "time": "40 8 * * 1-5",
+            "job": {
+                "type": "runjs",
+                "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zqqd.js"
+            }
+        },
