@@ -1,5 +1,5 @@
 {
-  "name": "块手极速版重写订阅",
+  "name": "快手极速版",
   "author": "elecV2p",
   "mitmhost": ["nebula.kuaishou.com", "api2.e.kuaishou.com", "api.e.kuaishou.com"],
   "rewrite": [
