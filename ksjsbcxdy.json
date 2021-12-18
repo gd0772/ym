@@ -23,9 +23,9 @@
     "type": "skip",
     "list": [
         {
-            "name": "快手极速版",
+            "name": "快手签到逛街广告",
             "type": "cron",
-            "time": "25 10 * * *",
+            "time": "/20 9-17 * * 1-6",
             "job": {
                 "type": "runjs",
                 "target": "https://ghproxy.com/https://raw.githubusercontent.com/liuqi6968/-/main/ks_js.js"
