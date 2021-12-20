@@ -25,7 +25,7 @@
         {
             "name": "快手签到逛街广告",
             "type": "cron",
-            "time": "/20 9-17 * * 1-6",
+            "time": "20 9-17 * * 1-6",
             "job": {
                 "type": "runjs",
                 "target": "https://ghproxy.com/https://raw.githubusercontent.com/liuqi6968/-/main/ks_js.js"
