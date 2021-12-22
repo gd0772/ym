@@ -10,57 +10,57 @@
   "rewrite": [
     {
       "match": "https://kandian.wkandian.com/v5/article/info.json",
-      "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zqwz.js",
+      "target": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zqwz.js",
       "enable": true
     },
     {
       "match": "https://kandian.wkandian.com/v5/article/detail.json",
-      "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zqwz.js",
+      "target": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zqwz.js",
       "enable": true
     },
     {
       "match": "https://kandian.wkandian.com/v5/user/stay.json",
-      "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zqwz.js",
+      "target": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zqwz.js",
       "enable": true
     }, 
     {
       "match": "https://kandian.wkandian.com/v5/CommonReward/toGetReward.json",
-      "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zqqd.js",
+      "target": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zqqd.js",
       "enable": true
     },
     {
       "match": "https://kandian.wkandian.com/v17/NewTask/getTaskList.json",
-      "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zq_today_score.js",
+      "target": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zq_today_score.js",
       "enable": true
     },
     {
       "match": "https://kandian.wkandian.com/v5/nameless/adlickstart.json",
-      "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zqkkz.js",
+      "target": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zqkkz.js",
       "enable": true
     },
     {
       "match": "https://kandian.wkandian.com/v5/CommonReward/toGetReward.json",
-      "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zqbox.js",
+      "target": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zqbox.js",
       "enable": true
     },
     {
       "match": "https://kandian.wkandian.com/v5/wechat/withdraw2.json",
-      "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zq_withdraw.js",
+      "target": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zq_withdraw.js",
       "enable": true
     },
     {
       "match": "https://kandian.wkandian.com/V17/Ximalaya/setCompleteSec.json",
-      "target": "https://ghproxy.com/https://raw.githubusercontent.com/liuqi6968/-/main/zq_music.js",
+      "target": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/liuqi6968/-/main/zq_music.js",
       "enable": true
     },
     {
       "match": "https://kandian.wkandian.com/v5/task/browse_start.json",
-      "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zqllz.js",
+      "target": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zqllz.js",
       "enable": true
     },
     {
       "match": "https://kandian.wkandian.com/v5/Sousuo/playStart.json",
-      "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zqssz.js",
+      "target": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zqssz.js",
       "enable": true
     }
   ],
@@ -73,7 +73,7 @@
             "time": "30 7 * * 1-5",
             "job": {
                 "type": "runjs",
-                "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zqqd.js"
+                "target": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zqqd.js"
             }
         },
         {
@@ -82,7 +82,7 @@
             "time": "30 8,14,20 * * 1-5",
             "job": {
                 "type": "runjs",
-                "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zqwz.js"
+                "target": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zqwz.js"
             }
         },
         {
@@ -91,7 +91,7 @@
             "time": "30 15 * * 1-5",
             "job": {
                 "type": "runjs",
-                "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zqkkz.js"
+                "target": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zqkkz.js"
             }
         },
         {
@@ -100,7 +100,7 @@
             "time": "15 6,12,18 * * *",
             "job": {
                 "type": "runjs",
-                "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zq_share.js"
+                "target": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zq_share.js"
             }
         },
         {
@@ -109,7 +109,7 @@
             "time": "20 21 * * 1-5",
             "job": {
                 "type": "runjs",
-                "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zq_Adv_video.js"
+                "target": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zq_Adv_video.js"
             }
         },
         {
@@ -118,7 +118,7 @@
             "time": "55 19 * * 1-5",
             "job": {
                 "type": "runjs",
-                "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zqbox.js"
+                "target": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zqbox.js"
             }
         },
         {
@@ -127,7 +127,7 @@
             "time": "30 22 * * 1-5",
             "job": {
                 "type": "runjs",
-                "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zq_today_score.js"
+                "target": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zq_today_score.js"
             }
         },
         {
@@ -136,7 +136,7 @@
             "time": "15 7 * * *",
             "job": {
                 "type": "runjs",
-                "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zq_friendSign.js"
+                "target": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zq_friendSign.js"
             }
         },
         {
@@ -145,7 +145,7 @@
             "time": "30 21 * * 1-5",
             "job": {
                 "type": "runjs",
-                "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zq_Rotary.js"
+                "target": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zq_Rotary.js"
             }
         },
         {
@@ -154,7 +154,7 @@
             "time": "30 7 * * 1-5",
             "job": {
                 "type": "runjs",
-                "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zq_wakeup.js"
+                "target": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zq_wakeup.js"
             }
         },
         {
@@ -163,7 +163,7 @@
             "time": "45 16 * * 1-5",
             "job": {
                 "type": "runjs",
-                "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zqssz.js"
+                "target": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zqssz.js"
             }
         },
         {
@@ -172,7 +172,7 @@
             "time": "15 8 * * 1-5",
             "job": {
                 "type": "runjs",
-                "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zqllz.js"
+                "target": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zqllz.js"
             }
         },
         {
@@ -181,7 +181,7 @@
             "time": "55 6 * * 1",
             "job": {
                 "type": "runjs",
-                "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zq_double.js"
+                "target": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zq_double.js"
             }
         },
        {
@@ -190,7 +190,7 @@
             "time": "19 10-18 * * *",
             "job": {
                 "type": "runjs",
-                "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zqbox.js"
+                "target": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zqbox.js"
             }
         },
         {
@@ -199,7 +199,7 @@
             "time": "25 10 * * *",
             "job": {
                 "type": "runjs",
-                "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zq_withdraw.js"
+                "target": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zq_withdraw.js"
             }
         }
     ]
