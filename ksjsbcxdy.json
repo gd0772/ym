@@ -5,17 +5,17 @@
   "rewrite": [
     {
       "match": "https://nebula.kuaishou.com/rest/n/nebula/activity/earn/overview/basicInfo",
-      "target": "https://ghproxy.com/https://raw.githubusercontent.com/liuqi6968/-/main/ks_js.js",
+      "target": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/liuqi6968/-/main/ks_js.js",
       "enable": true
     },
     {
       "match": "https://api2.e.kuaishou.com/rest/r/reward/task/status",
-      "target": "https://ghproxy.com/https://raw.githubusercontent.com/liuqi6968/-/main/ks_js.js",
+      "target": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/liuqi6968/-/main/ks_js.js",
       "enable": true
     },
     {
       "match": "https://api.e.kuaishou.com/rest/e/v1/reward/ad",
-      "target": "https://ghproxy.com/https://raw.githubusercontent.com/liuqi6968/-/main/ks_js.js",
+      "target": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/liuqi6968/-/main/ks_js.js",
       "enable": true
     }
   ],
@@ -28,7 +28,7 @@
             "time": "20 9-17 * * 1-6",
             "job": {
                 "type": "runjs",
-                "target": "https://ghproxy.com/https://raw.githubusercontent.com/liuqi6968/-/main/ks_js.js"
+                "target": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/liuqi6968/-/main/ks_js.js"
             }
         }
     ]
