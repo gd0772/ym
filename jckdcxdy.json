@@ -10,50 +10,50 @@
   "rewrite": [
     {
       "match": "https://ant.xunsl.com/v5/article/info.json",
-      "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jcwz.js",
+      "target": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jcwz.js",
       "enable": true
     },
     {
       "match": "https://ant.xunsl.com/v5/article/detail.json",
-      "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jcwz.js",
+      "target": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jcwz.js",
       "enable": true
     },
     {
       "match": "https://ant.xunsl.com/v5/nameless/adlickstart.json",
-      "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jckkz.js",
+      "target": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jckkz.js",
       "enable": true
     }, 
     {
       "match": "https://ant.xunsl.com/v5/CommonReward/toGetReward.json",
-      "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jcqd.js",
+      "target": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jcqd.js",
       "enable": true
     },
     {
       "match": "https://ant.xunsl.com/v17/Ad/getReward.json",
-      "target": "https://ghproxy.com/https://raw.githubusercontent.com/liuqi6968/-/main/Jc_5_60.js",
+      "target": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/liuqi6968/-/main/Jc_5_60.js",
       "enable": true
     },
     {
       "match": "https://ant.xunsl.com/v5/CommonReward/toGetReward.json",
-      "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jcbox.js",
+      "target": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jcbox.js",
       "enable": true
     }
     ,
     {
       "match": "https://ant.xunsl.com/v5/user/stay.json",
-      "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jcwz.js",
+      "target": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jcwz.js",
       "enable": true
     }
     ,
     {
       "match": "https://ant.xunsl.com/v5/wechat/withdraw2.json",
-      "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jc_withdraw.js",
+      "target": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jc_withdraw.js",
       "enable": true
     }
     ,
     {
       "match": "https://ant.xunsl.com/v17/NewTask/getTaskList.json",
-      "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jc_today_score.js",
+      "target": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jc_today_score.js",
       "enable": true
     }
   ],
@@ -66,7 +66,7 @@
             "time": "45 8 * * 1-5",
             "job": {
                 "type": "runjs",
-                "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jcqd.js"
+                "target": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jcqd.js"
             }
         },
         {
@@ -75,7 +75,7 @@
             "time": "30 8,12,18 * * 1-5",
             "job": {
                 "type": "runjs",
-                "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jcwz.js"
+                "target": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jcwz.js"
             }
         },
         {
@@ -84,7 +84,7 @@
             "time": "45 9 * * 1-5",
             "job": {
                 "type": "runjs",
-                "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jckkz.js"
+                "target": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jckkz.js"
             }
         },
         {
@@ -93,7 +93,7 @@
             "time": "15 6,12,18 * * *",
             "job": {
                 "type": "runjs",
-                "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jc_share.js"
+                "target": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jc_share.js"
             }
         },
         {
@@ -102,7 +102,7 @@
             "time": "45 11 * * 1-5",
             "job": {
                 "type": "runjs",
-                "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jc_Adv_video.js"
+                "target": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jc_Adv_video.js"
             }
         },
         {
@@ -111,7 +111,7 @@
             "time": "35 12 * * 1-5",
             "job": {
                 "type": "runjs",
-                "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jcbox.js"
+                "target": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jcbox.js"
             }
         },
         {
@@ -120,7 +120,7 @@
             "time": "15 7 * * *",
             "job": {
                 "type": "runjs",
-                "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jc_friendSign.js"
+                "target": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jc_friendSign.js"
             }
         },
         {
@@ -129,7 +129,7 @@
             "time": "30 21 * * 1-5",
             "job": {
                 "type": "runjs",
-                "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jc_Rotary.js"
+                "target": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jc_Rotary.js"
             }
         },
         {
@@ -138,7 +138,7 @@
             "time": "34 10 * * *",
             "job": {
                 "type": "runjs",
-                "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jc_withdraw.js"
+                "target": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jc_withdraw.js"
             }
         },
         {
@@ -147,7 +147,7 @@
             "time": "35 22 * * 1-5",
             "job": {
                 "type": "runjs",
-                "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jc_today_score.js"
+                "target": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jc_today_score.js"
             }
         }
     ]
